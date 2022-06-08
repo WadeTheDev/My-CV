@@ -7,10 +7,12 @@
 }
 
 
+
 #cv-container{
     width: 100%;
     height: 200vh;
     display: flex;
+    font-family: 'Raleway', sans-serif;
 }
 
 .icons{
@@ -33,7 +35,11 @@
     color: #777777;
 }
 
-
+.left h3{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 
 .article-left{
     width: 90%;
@@ -92,13 +98,25 @@
 }
 
 .right h2, .right h1{
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.right h4{
+    font-weight: 700;
 }
 
 .flex-column{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
+    width: 90%;
+}
+
+.flex-column article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 90%;
 }
 
@@ -113,4 +131,39 @@
     flex-direction: column;
     gap: 12px;
     width: 90%;
+}
+
+.bar-container{
+    width: 70%;
+    height: 8px;
+    background-color: rgba(119, 119, 119, 0.21);;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+ .progress{
+    height: 100%;
+    background: #777777;
+    border-radius: 50px;
+}
+.bar1{
+    width: 85%;
+}
+.bar2{
+    width: 75%;
+}
+.bar3{
+    width: 75%;
+}
+.bar4{
+    width: 20%;
+}
+.bar5{
+    width: 20%;
+}
+.bar6{
+    width: 20%;
+}
+.bar7{
+    width: 100%;
 }
