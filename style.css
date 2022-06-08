@@ -6,7 +6,9 @@
     font-family: 'Raleway', sans-serif;
 }
 
-
+body{
+    background-color: #FED8B7;
+}
 
 #cv-container{
     width: 100%;
@@ -73,6 +75,7 @@
     display: flex;
     flex-direction: column;
     gap: 4%;
+    background: white;
 }
 
 .title{
@@ -107,6 +110,7 @@
 }
 
 .flex-column{
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -166,4 +170,26 @@
 }
 .bar7{
     width: 100%;
+}
+
+.art{
+    position: relative;
+}
+
+.art::before {
+    content: "";
+    position: absolute;
+    left: -3%;
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.timeline{
+    position: absolute;
+    left: -2.3%;
+    width: 2px;
+    height: 100%;
+    background-color: black;
 }
